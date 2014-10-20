@@ -1,0 +1,24 @@
+{
+  "name": "FlexMarks",
+  "version": "1.1",
+  "description": "A browser action for flex matching against user bookmarks",
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+L",
+        "linux": "Ctrl+Shift+L"
+      }
+    }
+  },
+  "browser_action": {
+      "default_title": "All Bookmarks",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'"
+}

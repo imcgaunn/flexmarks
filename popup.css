@@ -1,0 +1,12 @@
+body {
+  background: #222;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #e3e3e3;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.2em;
+}
